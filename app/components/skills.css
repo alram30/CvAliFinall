@@ -1,0 +1,39 @@
+.skills-container {
+    margin: 20px;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+}
+
+.skill-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.skill-name {
+    width: 150px; /* Lebar nama keterampilan */
+    font-weight: bold;
+}
+
+.bar-container {
+    flex-grow: 1; /* Membuat bar container mengisi ruang yang tersisa */
+    background-color: #e0e0e0; /* Warna latar belakang bar */
+    border-radius: 5px;
+    margin: 0 10px; /* Margin antara nama dan bar */
+    height: 20px; /* Tinggi bar */
+}
+
+.bar {
+    background-color: #4caf50; /* Warna bar keterampilan */
+    height: 100%; /* Memastikan bar mengisi tinggi kontainer */
+    border-radius: 5px; /* Sudut bar yang membulat */
+    transition: width 0.3s ease; /* Animasi saat bar diperbarui */
+}
+
+.skill-level {
+    width: 40px; /* Lebar untuk menampilkan level */
+    text-align: right; /* Penjajaran teks ke kanan */
+}
